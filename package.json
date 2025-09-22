@@ -1,0 +1,25 @@
+{
+  "name": "agenda-contatos-cypress",
+  "version": "1.0.0",
+  "description": "Projeto de testes end-to-end com Cypress para agenda de contatos",
+  "scripts": {
+    "test": "cypress run --headless",
+    "cypress:open": "cypress open",
+    "test:e2e": "cypress run --browser chrome --headless",
+    "test:ci": "cypress run --headless"
+  },
+  "keywords": [
+    "cypress",
+    "tests",
+    "agenda-contatos"
+  ],
+  "author": "Seu Nome",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^10.0.0",
+    "@types/node": "^24.5.2",
+    "cypress": "^15.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
