@@ -11,7 +11,7 @@ export default defineConfig({
         screenshotOnRunFailure: true,
         retries: { runMode: 2, openMode: 0 },
         setupNodeEvents(on, config) {
-            // plugins se necessário
+
         }
     }
 });

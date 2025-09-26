@@ -1,4 +1,5 @@
 {
+
   "name": "agenda-contatos-cypress",
   "version": "1.0.0",
   "description": "Projeto de testes end-to-end com Cypress para agenda de contatos",
@@ -23,3 +24,5 @@
     "typescript": "^5.9.2"
   }
 }
+
+
